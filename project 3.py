@@ -20,7 +20,7 @@ t4 = create_sprite("alien",x4,y4)
 time.sleep(3)
 # # Section 3 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
-# # TODO - explain here which sprites are faster or slower
+# # TODO - explain here which sprites are faster or slower: x3 is the slowest sprite and x1 is the 2nd slowest, and x2 is the only one other than x4 that can win if the random number is 10. but most likely x4 wins.
 for i in range(35):
     x1 += 10
     x2 += 13
